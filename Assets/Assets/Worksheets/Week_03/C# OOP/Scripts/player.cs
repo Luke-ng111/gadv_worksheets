@@ -4,7 +4,7 @@ public class player : MonoBehaviour
 {
     public class Player
     {
-        private int health = 1000;
+        private int health = 10;
 
         
 
