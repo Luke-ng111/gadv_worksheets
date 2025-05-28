@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93b21486b5eb3fb44a7536b07b63a0cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activationColor: {r: 1, g: 0.013207495, b: 0.013207495, a: 0}
+  activationColor: {r: 1, g: 0.013207495, b: 0.013207495, a: 1}
 --- !u!1 &913013416
 GameObject:
   m_ObjectHideFlags: 0
