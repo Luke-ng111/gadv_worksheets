@@ -9,8 +9,19 @@ public class AsteroidColourTinter : MonoBehaviour
             // Access the SpriteRenderer component
             SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
 
-            // Change the color to blue
-            spriteRenderer.color = Color.blue;
+            if (spriteRenderer.color == Color.white)
+            {
+                // Change the color to blue
+                spriteRenderer.color = Color.blue;
+            }
+            else
+            {
+                spriteRenderer.color = Color.white;
+            }
+
+
         }
+
+
     }
 }
